@@ -4,7 +4,7 @@ namespace cw5.Data;
 
 public class InMemoryStore
 {
-    public static List<Room> Romms { get; set; } = new()
+    public static List<Room> Rooms { get; set; } = new()
     {
         new Room { Id = 1, Name = "Lab 101", BuildingCode = "A", Floor = 1, Capacity = 30, HasProjector = true, IsActive = true },
         new Room { Id = 2, Name = "Sala Wykładowa 1", BuildingCode = "A", Floor = 1, Capacity = 150, HasProjector = true, IsActive = true },
